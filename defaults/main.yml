@@ -17,3 +17,6 @@ container_run_as_user: root
 
 # to sepped up you can disable always checking if podman is installed.
 skip_podman_install: true
+
+# Empty container command if none was specified
+container_command: ""
